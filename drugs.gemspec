@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["mandert@gmail.com"]
 
   spec.summary       = "A list of pharmaceuticals."
-  spec.description   = "A list of pharmaceuticals."
+  spec.description   = "A list of pharmaceuticals – useful for fighting contact form spam etc."
   spec.homepage      = "https://github.com/martinandert/drugs#readme"
   spec.license       = "MIT"
 
