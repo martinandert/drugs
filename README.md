@@ -2,6 +2,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/drugs.svg)](https://rubygems.org/gems/drugs)
 [![npm version](https://badge.fury.io/js/drugs.svg)](https://www.npmjs.com/package/drugs)
+[![Dependency Status](https://gemnasium.com/badges/github.com/martinandert/drugs.svg)](https://gemnasium.com/github.com/martinandert/drugs)
 
 A list of pharmaceuticals. Useful for fighting contact form spam etc.
 
