@@ -13,7 +13,7 @@ Using [npm](https://www.npmjs.com/):
 $ npm install --save drugs
 ```
 
-or using [yarn][https://yarnpkg.com/]:
+or using [yarn](https://yarnpkg.com/):
 
 ```
 $ yarn add drugs
