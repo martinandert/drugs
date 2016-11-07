@@ -13,7 +13,7 @@ release-major: test
 publish:
 	git push --tags origin HEAD:master
 	npm publish
-	rake build release:guard_clean release:rubygem_push
+	rake build release:rubygem_push
 
 define release
   rake version:$(1)
