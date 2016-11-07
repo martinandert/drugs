@@ -1,10 +1,34 @@
 # Drugs
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/drugs`. To experiment with that code, run `bin/console` for an interactive prompt.
+A list of pharmaceuticals. Useful for fighting contact form spam etc.
 
-TODO: Delete this and the text above, and describe your gem
 
-## Installation
+## Installation & Usage
+
+### As a Node.js package
+
+Using [npm](https://www.npmjs.com/):
+
+```
+$ npm install --save drugs
+```
+
+or using [yarn][https://yarnpkg.com/]:
+
+```
+$ yarn add drugs
+```
+
+Then, in your code:
+
+```js
+var drugs = require('drugs');
+
+console.log(drugs)
+//=> ['abilify', 'advil', 'albuterol', ...]
+```
+
+### As a Ruby gem
 
 Add this line to your application's Gemfile:
 
@@ -20,19 +44,22 @@ Or install it yourself as:
 
     $ gem install drugs
 
-## Usage
+Then, in your code:
 
-TODO: Write usage instructions here
+```ruby
+require "drugs"
 
-## Development
+include Drugs
+puts drugs #=> ["abilify", "advil", "albuterol", ...]
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+# Or without including the module
+Drugs.drugs #=> ["abilify", "advil", "albuterol", ...]
+```
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/drugs.
+Bug reports and pull requests are welcome on GitHub at https://github.com/martinandert/drugs.
 
 
 ## License

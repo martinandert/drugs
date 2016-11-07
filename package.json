@@ -3,13 +3,6 @@
   "version": "1.0.0",
   "description": "A list of pharmaceuticals",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/martinandert/drugs.git"
-  },
   "keywords": [
     "drugs",
     "pharmaceuticals",
@@ -19,8 +12,12 @@
   ],
   "author": "Martin Andert",
   "license": "MIT",
+  "homepage": "https://github.com/martinandert/drugs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinandert/drugs.git"
+  },
   "bugs": {
     "url": "https://github.com/martinandert/drugs/issues"
-  },
-  "homepage": "https://github.com/martinandert/drugs#readme"
+  }
 }
