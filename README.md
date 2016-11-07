@@ -1,5 +1,8 @@
 # Drugs
 
+[![Gem Version](https://badge.fury.io/rb/drugs.svg)](https://badge.fury.io/rb/drugs)
+[![npm version](https://badge.fury.io/js/drugs.svg)](https://badge.fury.io/js/drugs)
+
 A list of pharmaceuticals. Useful for fighting contact form spam etc.
 
 
